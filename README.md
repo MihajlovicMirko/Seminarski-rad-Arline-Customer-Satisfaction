@@ -15,16 +15,19 @@ U ovom seminarskom radu analiziraćemo skup podataka “Airline Customer Satisfa
 Ovaj skup podataka sadrži informacije o kvalitetu usluge na avionu, opis samog putnika kao i opis samog puta (dužina puta)
 Imamo sledeće kolone:
 
+### Kategorijske promenljive
 - **Satisfaction**: Zadovoljstvo putnika.  
 - **Customer Type**: Lojalan ili nelojalan.  
 - **Type Of Travel**: Poslovni put ili zadovoljstvo.  
 - **Class**: Eco, Eco plus, Business.
-  
+
+### Numeričke promenljive
 - **Age**: Starost putnika.  
 - **Flight Distance**: dužina puta.
 - **Departure Delay in Minutes** koliko kasni polazak aviona u minutima.
 - **Arrival  Delay in Minutes** koliko kasni dolazak aviona u minutima.
-  
+
+### Ocene  
 - **Seat comfort** udobnost sedišta (1-5) 
 - **Departure/Arrival time convenient** Da li je pogodno vreme dolaska/odlaska (1-5)
 - **Food and drink** Hrana i piće (1-5)
