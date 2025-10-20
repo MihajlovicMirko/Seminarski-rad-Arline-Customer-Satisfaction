@@ -46,29 +46,30 @@ Imamo sledeće kolone:
 ## Sadržaj rada
 1.	Uvod
 2.	Učitavanje podataka
-3.	Eksploratorna analiza podataka (EDA)	
+3.	Eksploratorna analiza podataka (EDA)
+
   3.1	Univarijantna analiza podataka
     3.1.1	Kategorijske promenljive
     3.1.2	Numeričke Promenljive
-4.	Čišćenje podataka	
+5.	Čišćenje podataka	
   4.1	Uklanjanje nepravilnih vrednosti
   4.2	Rešavanje Nedostajućih Vrednosti
   4.3	Rešavanje Outliera (Ekstremnih Vrednosti)
-5.	Bivarijantna analiza podataka
+6.	Bivarijantna analiza podataka
   5.1	Odnos sa promenljivom ,,satisfaction’’	
   5.2	Redukcija Podataka	
-6.	Feature Engineering	
+7.	Feature Engineering	
   6.1	Stvaranje novih promenljivih	
   6.2	Transformacija podataka (Kodiranje Kategorijskih podataka)	
-7.	Modelovanje	
+8.	Modelovanje	
   7.1	Logistička regresija	
   7.2	Decision Tree	
   7.3	Random Forest	
   7.4	XGBoost	
-8.	Poređenje modela i finalna evaluacija	
+9.	Poređenje modela i finalna evaluacija	
   8.1	ROC krive za sve modele	
   8.2	Konfuziona matrica za najbolji model	
   8.3	Feature Importance analiza	
-9.	Zaključak	
+10.	Zaključak	
 
 
