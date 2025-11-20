@@ -1,7 +1,7 @@
 # Seminarski-rad-Airline-Customer-Satisfaction-
 U ovom seminarskom radu analiziraćemo skup podataka “Airline Customer Satisfaction” (stvorio ju je Ramin Huseyn), i napraviti model za predikciju promenljive satisfaction (zadovoljstvo) - analiziraćemo koliko određene informacije prikupljene iz skupa utiču na celokupno uživanje putnika tokom vožnje.
 
-## Fajlovi
+## Materijal
 
 - **Airline_Customer_Satisfaction.url**: Link do strane gde smo našli ovaj skup podataka.  
 - **Airline_Customer_Satisfaction.csv**: Skup podataka.  
@@ -54,4 +54,29 @@ Imamo sledeće kolone:
 8.	Poređenje modela i finalna evaluacija		
 9.	Zaključak 
 
+## Iskorišćeni modeli:
+- **Logistička Regresija**
+- **Decision Tree**
+- **Random Forest**
+- **XGBoost**
+
+**XGboost** se istakao kao najsposobniji model zbog sposobnosti da uoči složene nelinearne obrasce i interakcije između promenljivih, što omogućava preciznije predikcije čak i kod neuravnoteženih klasa.
+
+## Summary
+Top 10 najvažnijih promenljivih:
+
+Feature/Importance
+- Flight_Experience : 0.458098
+- Customer Type_disloyal Customer : 0.265729
+- Ground_Service_Quality : 0.104097
+- Type of Travel_Personal Travel : 0.074807
+- Class : 0.053692
+- Flight_Distance_Group : 0.023171
+- Age_Group : 0.006467
+- Age : 0.005418
+- Flight Distance : 0.004155
+- Total_Delay_in_minutes_group : 0.002200
+
+
+Analiza je pokazala da kvalitet usluge leta, usluge pre leta (ground service) i lojalnost korisnika značajno utiču na zadovoljstvo kupca. 
 
